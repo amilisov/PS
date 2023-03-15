@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Welcome.Others
 {
-    internal class PasswordClass
+    public class PasswordClass
     {
         private string _password;
         private int _key;

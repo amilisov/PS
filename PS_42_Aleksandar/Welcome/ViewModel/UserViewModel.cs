@@ -9,7 +9,7 @@ using Welcome.Others;
 
 namespace Welcome.ViewModel
 {
-    internal class UserViewModel
+    public class UserViewModel
     {
         User _user;
 

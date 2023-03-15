@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Welcome.Others
 {
-    enum UserRolesEnum
+    public enum UserRolesEnum
     {
         ANONYMOUS,
         ADMIN,

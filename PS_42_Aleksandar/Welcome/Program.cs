@@ -10,7 +10,7 @@ namespace Welcome
     {
         static void Main(string[] args)
         {
-            User user = new User("Jeff", new PasswordClass("1234", 1), UserRolesEnum.PROFESSOR, "0000001", new MailAddress("Jeff1@mail.mail"));
+            User user = new User("Jeff", new PasswordClass("1234", 1), UserRolesEnum.PROFESSOR, 1, new MailAddress("Jeff1@mail.mail"));
             UserViewModel viewModel = new UserViewModel(user);
             UserView userView = new UserView(viewModel);
 

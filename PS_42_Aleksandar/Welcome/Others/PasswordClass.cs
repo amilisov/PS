@@ -42,5 +42,10 @@ namespace Welcome.Others
             }
             return new string(chars);
         }
+
+        public override string ToString()
+        {
+            return _password;
+        }
     }
 }

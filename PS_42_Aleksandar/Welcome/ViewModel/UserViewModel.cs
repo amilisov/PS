@@ -29,7 +29,7 @@ namespace Welcome.ViewModel
             get { return _user.Role; }
             set { _user.Role = value; }
         }
-        public string Id
+        public int Id
         {
             get { return _user.Id; }
             set { _user.Id = value; }
